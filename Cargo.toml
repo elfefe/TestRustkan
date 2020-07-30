@@ -9,3 +9,5 @@ edition = "2018"
 [dependencies]
 structopt = "0.3.13"
 vulkano = "0.19"
+vulkano-shaders = "0.18.0"
+iui = "0.3"
