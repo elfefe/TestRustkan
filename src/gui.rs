@@ -10,6 +10,7 @@ pub(crate) fn init_ui() -> UI {
     // Create a window into which controls can be placed
     let mut win = Window::new(&ui, "Test App", 200, 200, WindowType::NoMenubar);
 
+
     // Create a vertical layout to hold the controls
     let mut vbox = VerticalBox::new(&ui);
     vbox.set_padded(&ui, true);
@@ -36,9 +37,7 @@ pub(crate) fn init_ui() -> UI {
 
     // Create a new label. Note that labels don't auto-wrap!
     let mut label_text = String::new();
-    label_text.push_str("There is a ton of text in this label.\n");
-    label_text.push_str("Pretty much every unicode character is supported.\n");
-    label_text.push_str("🎉 用户界面 사용자 인터페이스");
+    label_text.push_str("Le test1.\n");
     let label = Label::new(&ui, &label_text);
 
     vbox.append(&ui, label, LayoutStrategy::Stretchy);

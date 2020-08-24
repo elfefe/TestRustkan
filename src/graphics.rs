@@ -73,7 +73,6 @@ pub(crate) fn init_gpu_graphics() -> String {
         false,
         data_iter).expect("failed to create buffer");
 
-    /*
         let shader = shaders::cs::Shader::load(device.clone())
             .expect("failed to create shader module");
 
@@ -97,9 +96,8 @@ pub(crate) fn init_gpu_graphics() -> String {
 
     finished.then_signal_fence_and_flush().unwrap()
         .wait(None).unwrap();
-    */
 
-    let content = data_buffer.read().unwrap();
+    let _content = data_buffer.read().unwrap();
 
     let image = StorageImage::new(device.clone(), Dimensions::Dim2d { width: 1024, height: 1024 },
                                   Format::R8G8B8A8Unorm, Some(queue.family())).unwrap();
