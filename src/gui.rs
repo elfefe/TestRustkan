@@ -1,5 +1,6 @@
 use iui::prelude::*;
 use iui::controls::{Label, Button, VerticalBox, Group};
+use draw::*;
 
 #[path = "graphics.rs"] mod graphics;
 
