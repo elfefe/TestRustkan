@@ -1,8 +1,6 @@
 use iui::prelude::*;
+use iui::draw::*;
 use iui::controls::{Label, Button, VerticalBox, Group};
-use draw::*;
-
-#[path = "graphics.rs"] mod graphics;
 
 pub(crate) fn init_ui() -> UI {
     // Initialize the UI library
@@ -15,6 +13,7 @@ pub(crate) fn init_ui() -> UI {
     // Create a vertical layout to hold the controls
     let mut vbox = VerticalBox::new(&ui);
     vbox.set_padded(&ui, true);
+
 
     let mut group_vbox = VerticalBox::new(&ui);
     let mut group = Group::new(&ui, "Group");

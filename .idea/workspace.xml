@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c290edb-6b1d-4276-82b1-ee3568e3c419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/piston.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TestRustkan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestRustkan.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +49,25 @@
     <option name="directoryName" value="boyep716" />
   </component>
   <component name="ProjectId" id="1fMlAWeenjdJXnBQGs8DwoKFBKd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../piston-examples-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.disableDetachedFileInspectionD:/Projets/Rust/TestRustkan/src/shaders/shaders.rs" value="true" />
-    <property name="settings.editor.selected.configurable" value="language.rust" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,6 +78,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test_rustkan" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run" />
@@ -87,55 +123,80 @@
       <workItem from="1596788849713" duration="1475000" />
       <workItem from="1598280858110" duration="2018000" />
       <workItem from="1598349342722" duration="35000" />
-      <workItem from="1601882169338" duration="345000" />
+      <workItem from="1601882169338" duration="6575000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="231" y="84" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596036135229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="231" y="84" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.-370.2048.1112@0.0.1536.824" timestamp="1596036135229" />
-    <state x="2675" y="-67" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596118079924">
-      <screen x="1920" y="-370" width="2048" height="1112" />
+    <state x="2675" y="-55" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601886506295">
+      <screen x="1920" y="-358" width="2048" height="1112" />
     </state>
+    <state x="2675" y="-55" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.-358.2048.1112@1920.-358.2048.1112" timestamp="1601886506295" />
     <state x="2675" y="-67" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.-370.2048.1112@1920.-370.2048.1112" timestamp="1596118079924" />
     <state x="637" y="186" width="644" height="498" key="EnvironmentVariablesDialog" timestamp="1596035863223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="637" y="186" width="644" height="498" key="EnvironmentVariablesDialog/0.0.1536.824/1920.-370.2048.1112@0.0.1536.824" timestamp="1596035863223" />
-    <state x="548" y="191" key="FileChooserDialogImpl" timestamp="1598349375420">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2651" y="-100" key="FileChooserDialogImpl" timestamp="1601891246275">
+      <screen x="1920" y="-358" width="2048" height="1112" />
     </state>
+    <state x="2651" y="-100" key="FileChooserDialogImpl/0.0.1536.824/1920.-358.2048.1112@1920.-358.2048.1112" timestamp="1601891246275" />
     <state x="548" y="191" key="FileChooserDialogImpl/0.0.1536.824/1920.-370.2048.1112@0.0.1536.824" timestamp="1598349375420" />
     <state x="2651" y="-112" key="FileChooserDialogImpl/0.0.1536.824/1920.-370.2048.1112@1920.-370.2048.1112" timestamp="1596119531898" />
-    <state width="1493" height="331" key="GridCell.Tab.0.bottom" timestamp="1598282877492">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2005" height="473" key="GridCell.Tab.0.bottom" timestamp="1601891627360">
+      <screen x="1920" y="-358" width="2048" height="1112" />
     </state>
+    <state width="2005" height="473" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-358.2048.1112@1920.-358.2048.1112" timestamp="1601891627360" />
     <state width="1493" height="331" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-370.2048.1112@0.0.1536.824" timestamp="1598282877492" />
     <state width="2005" height="257" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-370.2048.1112@1920.-370.2048.1112" timestamp="1596523405190" />
-    <state width="1493" height="331" key="GridCell.Tab.0.center" timestamp="1598282877491">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2005" height="473" key="GridCell.Tab.0.center" timestamp="1601891627360">
+      <screen x="1920" y="-358" width="2048" height="1112" />
     </state>
+    <state width="2005" height="473" key="GridCell.Tab.0.center/0.0.1536.824/1920.-358.2048.1112@1920.-358.2048.1112" timestamp="1601891627360" />
     <state width="1493" height="331" key="GridCell.Tab.0.center/0.0.1536.824/1920.-370.2048.1112@0.0.1536.824" timestamp="1598282877491" />
     <state width="2005" height="257" key="GridCell.Tab.0.center/0.0.1536.824/1920.-370.2048.1112@1920.-370.2048.1112" timestamp="1596523405190" />
-    <state width="1493" height="331" key="GridCell.Tab.0.left" timestamp="1598282877491">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2005" height="473" key="GridCell.Tab.0.left" timestamp="1601891627360">
+      <screen x="1920" y="-358" width="2048" height="1112" />
     </state>
+    <state width="2005" height="473" key="GridCell.Tab.0.left/0.0.1536.824/1920.-358.2048.1112@1920.-358.2048.1112" timestamp="1601891627360" />
     <state width="1493" height="331" key="GridCell.Tab.0.left/0.0.1536.824/1920.-370.2048.1112@0.0.1536.824" timestamp="1598282877491" />
     <state width="2005" height="257" key="GridCell.Tab.0.left/0.0.1536.824/1920.-370.2048.1112@1920.-370.2048.1112" timestamp="1596523405190" />
-    <state width="1493" height="331" key="GridCell.Tab.0.right" timestamp="1598282877492">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="2005" height="473" key="GridCell.Tab.0.right" timestamp="1601891627360">
+      <screen x="1920" y="-358" width="2048" height="1112" />
     </state>
+    <state width="2005" height="473" key="GridCell.Tab.0.right/0.0.1536.824/1920.-358.2048.1112@1920.-358.2048.1112" timestamp="1601891627360" />
     <state width="1493" height="331" key="GridCell.Tab.0.right/0.0.1536.824/1920.-370.2048.1112@0.0.1536.824" timestamp="1598282877492" />
     <state width="2005" height="257" key="GridCell.Tab.0.right/0.0.1536.824/1920.-370.2048.1112@1920.-370.2048.1112" timestamp="1596523405190" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1596035925074">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2289" y="-281" key="SettingsEditor" timestamp="1601882673374">
+      <screen x="1920" y="-358" width="2048" height="1112" />
     </state>
+    <state x="2289" y="-281" key="SettingsEditor/0.0.1536.824/1920.-358.2048.1112@1920.-358.2048.1112" timestamp="1601882673374" />
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.-370.2048.1112@0.0.1536.824" timestamp="1596035925074" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1601882927675">
+      <screen x="1920" y="-358" width="2048" height="1112" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.-358.2048.1112@1920.-358.2048.1112" timestamp="1601882927675" />
     <state x="2607" y="-127" width="672" height="678" key="search.everywhere.popup" timestamp="1596118903250">
       <screen x="1920" y="-370" width="2048" height="1112" />
     </state>
